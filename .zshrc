@@ -110,6 +110,7 @@ alias ohmyzsh="code ~/.oh-my-zsh"
 alias ls='lsd'
 alias cl='clear'
 alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME' 
+alias vim='nvim'
 source /Users/albertoguzman-alvarez/.oh-my-zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 
