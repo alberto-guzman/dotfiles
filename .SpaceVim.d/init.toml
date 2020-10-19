@@ -11,7 +11,7 @@
     # set spacevim theme. by default colorscheme layer is not loaded,
     # if you want to use more colorscheme, please load the colorscheme
     # layer
-    colorscheme = "gruvbox"
+    colorscheme = "NeoSolarized"
     colorscheme_bg = "dark"
     # Disable guicolors in basic mode, many terminal do not support 24bit
     # true colors
@@ -23,7 +23,7 @@
     buffer_index_type = 4
     enable_tabline_filetype_icon = true
     enable_statusline_mode = false
-
+    automatic_update = true 
 # Enable autocomplete layer
 [[layers]]
 name = 'autocomplete'
@@ -34,3 +34,13 @@ auto_completion_tab_key_behavior = "smart"
 name = 'shell'
 default_position = 'top'
 default_height = 30
+
+[[custom_plugins]]
+    repo = "lilydjwg/colorizer"
+    merged = false
+
+    repo = "vim-airline/vim-airline"
+    merged = false
+
+    repo = "dense-analysis/ale.git"
+    merged = false
