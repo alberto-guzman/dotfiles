@@ -1,0 +1,22 @@
+#ignore word docs
+*.docx
+
+#ignore pdf
+*.pdf
+
+#ignore ppt
+*.ppt
+
+#ignore misc
+contents.rtf
+content.styles
+synopsis.txt
+
+#ignore picture
+*.png
+*.jpg
+
+#ignore csv excel
+*.csv
+*.xlsx
+
