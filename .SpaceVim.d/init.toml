@@ -11,6 +11,7 @@
     # set spacevim theme. by default colorscheme layer is not loaded,
     # if you want to use more colorscheme, please load the colorscheme
     # layer
+    filetree_direction = "left"
     filemanager = "defx"
     colorscheme = "gruvbox"
     colorscheme_bg = "dark"
@@ -41,6 +42,14 @@ default_height = 30
     repo = "lilydjwg/colorizer"
     merged = false
 
-    repo = "vim-airline/vim-airline"
+    repo = "airblade/vim-gitgutter.git"
     merged = false
+
+    repo = "itchyny/lightline.vim.git"
+    merged = false
+
+    repo = "dense-analysis/ale.git"
+    merged = false
+
+
 
