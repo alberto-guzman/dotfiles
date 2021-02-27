@@ -105,8 +105,6 @@ source $ZSH/oh-my-zsh.sh
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
-alias zshconfig="code ~/.zshrc"
-alias ohmyzsh="code ~/.oh-my-zsh"
 alias ls='lsd'
 alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME' 
 source /Users/albertoguzman-alvarez/.oh-my-zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
