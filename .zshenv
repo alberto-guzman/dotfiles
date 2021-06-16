@@ -1,2 +1,2 @@
-export PATH=$PATH:/Users/albertoguzman-alvarez/bin
-export PATH=/usr/local/bin:$PATH
+export PATH=/usr/local/bin:/opt/homebrew/bin
+
