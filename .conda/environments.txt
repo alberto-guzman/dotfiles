@@ -1,0 +1,6 @@
+/Users/albertoguzman-alvarez/miniconda3
+/Users/albertoguzman-alvarez/miniconda3/envs/dnn_p
+/Users/albertoguzman-alvarez/miniconda3/envs/sandbox
+/Users/albertoguzman-alvarez/miniconda3/envs/spring2021
+/opt/homebrew/anaconda3
+/Users/albertoguzman-alvarez/miniconda3/envs/testpythonProject
