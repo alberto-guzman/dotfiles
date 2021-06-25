@@ -8,9 +8,10 @@
 *.ppt
 
 #ignore misc
-contents.rtf
+*.rtf
 content.styles
 synopsis.txt
+*.comments
 
 #ignore picture
 *.png
