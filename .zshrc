@@ -107,6 +107,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 alias ls='lsd'
 alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME' 
+alias cl='clear'
 source /Users/albertoguzman-alvarez/.oh-my-zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 
@@ -118,25 +119,6 @@ setopt auto_cd # cd by typing directory name if it's not a command
 setopt auto_list # automatically list choices on ambiguous completion
 setopt auto_menu # automatically use menu completion
 setopt always_to_end # move cursor to end if word had one match
-
-
-# miniconda
-
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/Users/albertoguzman-alvarez/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
-else
-    if [ -f "/Users/albertoguzman-alvarez/miniconda3/etc/profile.d/conda.sh" ]; then
-        . "/Users/albertoguzman-alvarez/miniconda3/etc/profile.d/conda.sh"
-    else
-        export PATH="/Users/albertoguzman-alvarez/miniconda3/bin:$PATH"
-    fi
-fi
-unset __conda_setup
-# <<< conda initialize <<<
-source ~/powerlevel10k/powerlevel10k.zsh-theme
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
