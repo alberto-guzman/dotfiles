@@ -4,7 +4,7 @@
 	smudge = git media smudge %f
 [user]
 	name = Alberto Guzman-Alvarez
-	email = alg223@pitt.edu
+	email = alvarez1991@gmail.com
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f

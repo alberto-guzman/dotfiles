@@ -128,21 +128,7 @@ test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell
 
 
 
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/Users/albertoguzman-alvarez/miniforge3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
-else
-    if [ -f "/Users/albertoguzman-alvarez/miniforge3/etc/profile.d/conda.sh" ]; then
-        . "/Users/albertoguzman-alvarez/miniforge3/etc/profile.d/conda.sh"
-    else
-        export PATH="/Users/albertoguzman-alvarez/miniforge3/bin:$PATH"
-    fi
-fi
-unset __conda_setup
-# <<< conda initialize <<<
-
+export PATH="/Users/albertoguzman-alvarez/opt/miniconda3/bin:$PATH"
 export PATH="/opt/homebrew/bin:$PATH"
 source /opt/homebrew/opt/powerlevel10k/powerlevel10k.zsh-theme
 

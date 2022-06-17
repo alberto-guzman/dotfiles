@@ -21,3 +21,5 @@ synopsis.txt
 *.csv
 *.xlsx
 
+#ignore stata files
+*.dta
