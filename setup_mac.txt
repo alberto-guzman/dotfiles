@@ -1,0 +1,50 @@
+Install 
+
+iterm2
+docker
+xquartz
+git 
+htop
+gh
+lsd
+make
+powerlevel10k
+tldr
+zsh_syntax_highlighting
+
+
+
+#applications
+set_app
+	bartender
+	clean shot x
+	expressions
+	mindnode
+	clean my mac
+	istat menu
+
+amphetamine
+backblaze
+1password
+flux
+alfred
+better snap tool
+zoom
+todoist
+sublime text
+spotify
+Rstudio
+Rize
+Readcube
+R
+miniconda  (ARM)
+pdf expert
+papers
+microsoft
+logi
+grammarly
+brave
+
+
+#see what I can download in homebrew
+
