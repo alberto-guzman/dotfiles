@@ -23,5 +23,7 @@
     "font_size_points": 11,
     "editor_theme": "Cobalt",
     "restore_source_documents": false,
-    "restore_last_project": false
+    "restore_last_project": false,
+    "save_workspace": "never",
+    "jobs_tab_visibility": "shown"
 }
