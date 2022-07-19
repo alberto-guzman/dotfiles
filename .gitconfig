@@ -1,0 +1,10 @@
+[core]
+	excludesfile = /Users/albertoguzman-alvarez/.gitignore_global
+[user]
+	name = Alberto Guzman-Alvarez
+[credential "https://github.com"]
+	helper = 
+	helper = !/opt/homebrew/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/opt/homebrew/bin/gh auth git-credential
