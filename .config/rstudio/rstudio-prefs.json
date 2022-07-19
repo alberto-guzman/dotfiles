@@ -21,5 +21,7 @@
     "syntax_color_console": true,
     "console_double_click_select": true,
     "font_size_points": 11,
-    "editor_theme": "Cobalt"
+    "editor_theme": "Cobalt",
+    "restore_source_documents": false,
+    "restore_last_project": false
 }
