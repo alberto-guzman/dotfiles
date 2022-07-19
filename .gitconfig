@@ -1,7 +1,9 @@
 [core]
 	excludesfile = /Users/albertoguzman-alvarez/.gitignore_global
+	editor = subl -n -w
 [user]
 	name = Alberto Guzman-Alvarez
+	email = alvarez1991@gmail.com
 [credential "https://github.com"]
 	helper = 
 	helper = !/opt/homebrew/bin/gh auth git-credential
