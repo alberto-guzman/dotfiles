@@ -13,7 +13,7 @@ PACKAGES=(
 	romkatv/powerlevel10k/powerlevel10k
 	tldr
 	tmux
-
+	fzf
 )
 
 echo "Installing packages..."
