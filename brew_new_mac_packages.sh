@@ -12,6 +12,8 @@ PACKAGES=(
 	make
 	romkatv/powerlevel10k/powerlevel10k
 	tldr
+	tmux
+
 )
 
 echo "Installing packages..."
