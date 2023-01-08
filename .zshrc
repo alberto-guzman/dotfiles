@@ -124,24 +124,26 @@ setopt auto_list # automatically list choices on ambiguous completion
 setopt auto_menu # automatically use menu completion
 setopt always_to_end # move cursor to end if word had one match
 
+source /opt/homebrew/opt/powerlevel10k/powerlevel10k.zsh-theme
+
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+# Path to miniconda R studio 
+# export PATH="/Users/albertoguzman-alvarez/Library/r-miniconda-arm64/bin:$PATH"  # commented out by conda initialize
+
+
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/opt/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+__conda_setup="$('/Users/albertoguzman-alvarez/Library/r-miniconda-arm64/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
 if [ $? -eq 0 ]; then
     eval "$__conda_setup"
 else
-    if [ -f "/opt/miniconda3/etc/profile.d/conda.sh" ]; then
-        . "/opt/miniconda3/etc/profile.d/conda.sh"
+    if [ -f "/Users/albertoguzman-alvarez/Library/r-miniconda-arm64/etc/profile.d/conda.sh" ]; then
+        . "/Users/albertoguzman-alvarez/Library/r-miniconda-arm64/etc/profile.d/conda.sh"
     else
-        export PATH="/opt/miniconda3/bin:$PATH"
+        export PATH="/Users/albertoguzman-alvarez/Library/r-miniconda-arm64/bin:$PATH"
     fi
 fi
 unset __conda_setup
 # <<< conda initialize <<<
 
-source /opt/homebrew/opt/powerlevel10k/powerlevel10k.zsh-theme
-
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
