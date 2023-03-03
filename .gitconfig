@@ -3,10 +3,15 @@
 	editor = subl -n -w
 [user]
 	name = Alberto Guzman-Alvarez
-	email = alvarez1991@gmail.com
+	email = alg223@pitt.edu
 [credential "https://github.com"]
 	helper = 
 	helper = !/opt/homebrew/bin/gh auth git-credential
 [credential "https://gist.github.com"]
 	helper = 
 	helper = !/opt/homebrew/bin/gh auth git-credential
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
